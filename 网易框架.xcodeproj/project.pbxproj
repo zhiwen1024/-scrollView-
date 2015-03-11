@@ -14,6 +14,8 @@
 		0499409B1AB07C9C00F6D42C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0499409A1AB07C9C00F6D42C /* Images.xcassets */; };
 		0499409E1AB07C9C00F6D42C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0499409C1AB07C9C00F6D42C /* LaunchScreen.xib */; };
 		049940AA1AB07C9C00F6D42C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940A91AB07C9C00F6D42C /* ____Tests.m */; };
+		049940B51AB07D7500F6D42C /* TXContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940B41AB07D7500F6D42C /* TXContentController.m */; };
+		049940B81AB07EEA00F6D42C /* TXLable.m in Sources */ = {isa = PBXBuildFile; fileRef = 049940B71AB07EEA00F6D42C /* TXLable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		049940A31AB07C9C00F6D42C /* 网易框架Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易框架Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		049940A81AB07C9C00F6D42C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049940A91AB07C9C00F6D42C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		049940B31AB07D7500F6D42C /* TXContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXContentController.h; sourceTree = "<group>"; };
+		049940B41AB07D7500F6D42C /* TXContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXContentController.m; sourceTree = "<group>"; };
+		049940B61AB07EEA00F6D42C /* TXLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXLable.h; sourceTree = "<group>"; };
+		049940B71AB07EEA00F6D42C /* TXLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXLable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				0499409A1AB07C9C00F6D42C /* Images.xcassets */,
 				0499409C1AB07C9C00F6D42C /* LaunchScreen.xib */,
 				0499408D1AB07C9C00F6D42C /* Supporting Files */,
+				049940B31AB07D7500F6D42C /* TXContentController.h */,
+				049940B41AB07D7500F6D42C /* TXContentController.m */,
+				049940B61AB07EEA00F6D42C /* TXLable.h */,
+				049940B71AB07EEA00F6D42C /* TXLable.m */,
 			);
 			path = "网易框架";
 			sourceTree = "<group>";
@@ -222,6 +232,8 @@
 				049940961AB07C9C00F6D42C /* ViewController.m in Sources */,
 				049940931AB07C9C00F6D42C /* AppDelegate.m in Sources */,
 				049940901AB07C9C00F6D42C /* main.m in Sources */,
+				049940B81AB07EEA00F6D42C /* TXLable.m in Sources */,
+				049940B51AB07D7500F6D42C /* TXContentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
